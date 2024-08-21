@@ -6,6 +6,7 @@ import Tradingbal from "../component/Tradingbal";
 import Order from "../component/Order";
 import Dashboard from "../component/Dashboard";
 import Settings from "../component/Settings";
+import Coin from "../component/Coin";
 
 const ContentPage: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const ContentPage: React.FC = () => {
         <Route path="/tradingbal" element={<Tradingbal />} />
         <Route path="/order" element={<Order />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/coins" element={<Coin />} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
     </main>
